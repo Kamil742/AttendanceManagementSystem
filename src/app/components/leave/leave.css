@@ -1,0 +1,13 @@
+.leaveCard{
+    display: flex;
+    gap: 20px;
+    margin: 30px;
+
+}
+
+.card{
+    border: 1px solid blacks;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px black;
+}

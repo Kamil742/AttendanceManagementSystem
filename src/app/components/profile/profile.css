@@ -1,0 +1,42 @@
+.dashboardPage{
+    padding:50px 50px;
+}
+
+ul{
+    list-style: none;
+}
+.icon-text{
+    margin-right: 10px;
+}
+.cards{
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cards ul{
+    margin-top: 20px;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+.cards ul li{
+    margin-bottom: 15px;
+}
+.basicdetails{
+    font-size: 20px;
+    display: flex;
+    /* justify-content: ; */
+}
+.basicdetails div{
+    margin-top: 10px;
+}
+.left-side-page{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right-side-page{
+
+}

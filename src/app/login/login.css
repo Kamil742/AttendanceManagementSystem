@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.mainpage{
+    background: url("https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .bgblur{
+    background: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .logform{
+    border: 1px solid green;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(240, 139, 6);
+    background: black;
+    opacity: 0.9;
+  }
+
+  .login{
+    float: right;
+    margin: 30px 30px 0 0;
+  }
+  .login button{
+    font-size: 30px;
+    padding: 5px 20px;
+    border-radius: 20px;
+  }

@@ -1,0 +1,48 @@
+.lists {
+  padding: 20px;
+  background: #303056;
+  height: 100vh;
+  color: #303056;
+  font-size: 20px;
+  font-weight: bold;
+  /* position: sticky; */
+  overflow-y: auto;
+  top: 0px; 
+  padding-bottom: 150px;
+}
+.lists img{
+  border-radius: 50%;
+  margin: 0 30%;
+}
+lists a{
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+
+.childlist {
+  background: white;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+a{
+  text-decoration: none;
+}
+.row{
+  width: 100%;
+}
+.children{
+  height :100vh;
+  overflow-y: auto;
+
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Make the thumb transparent */
+}

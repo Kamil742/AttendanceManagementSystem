@@ -1,0 +1,58 @@
+.lists {
+  padding: 20px;
+  background: #303056;
+  height: 100vh;
+  color: hsl(240, 28%, 26%);
+  font-size: 20px;
+  font-weight: bold;
+  overflow-y: auto;
+}
+
+.childlist {
+  background: white;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.row {
+  width: 100%;
+  --bs-gutter-x: 0;
+}
+.row a {
+  text-decoration: none;
+}
+.DashNavbar{
+  display: flex;
+  justify-content: space-between;
+  background: grey;
+  margin: 0;
+  
+}
+.navitems{
+  /* margin: 5px; */
+}
+.navitems button{
+  margin: 5px 10px;
+}
+.navitems button:hover{
+  background: #c3bbbb;
+}
+.logout{
+  display: flex;
+  justify-content: end; 
+  padding-right: 30px;
+}
+.logout button{
+  margin: 5px 10px;
+}
+
+.logout button:hover{
+  background: red;
+  color: white;
+}
+
+.children{
+  overflow-y: auto;
+  height: 100vh;
+}
+

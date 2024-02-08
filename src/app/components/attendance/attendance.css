@@ -1,0 +1,30 @@
+.tableData{
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+.tableData thead{
+    background: rgb(2, 87, 108);
+    height: 40px;
+    color: white;
+    font-size: large;
+}
+tr:nth-child(even) {
+    background-color: rgb(157, 207, 221);
+  }
+
+  td {
+    /* Add spacing between columns */
+    padding: 10px;
+  }
+  button{
+    padding: 0 10px;
+    margin: 0px 5px;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
